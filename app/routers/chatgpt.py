@@ -23,7 +23,7 @@ logging.getLogger('backoff').setLevel(logging.ERROR)
 
 
 class Message(BaseModel):
-    role: str = "user"
+    role: str = "assistant"
     content: str
 
 
