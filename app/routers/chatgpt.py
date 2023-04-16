@@ -28,7 +28,7 @@ class Message(BaseModel):
 
 
 class Model(Enum):
-    GPT_3_5_TURBO = "gpt-3.5-turbo"
+    GPT_3_5_TURBO = "gpt-3.5-turbo-0301"
 
 
 @router.get("/models")
